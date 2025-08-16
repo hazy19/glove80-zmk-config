@@ -24,7 +24,7 @@
 &mmv_input_listener {
   magic_speed {
     layers = <MAGIC>;                 // set to your Magic layer index
-    input-processors = <&zip_xy_scaler 3 2>; // 1.5× speed (mult=3, div=2)
+    input-processors = <&zip_xy_scaler 2 1>; // 2× speed
   };
 };
 
