@@ -20,11 +20,12 @@
 #define LOWER 1
 #define MAGIC 2
 #define FACTORY_TEST 3
+#define CUSTOM 4
 
 &mmv_input_listener {
-    magic_speed {
-        layers = <MAGIC>;                 // set to your Magic layer index
-        input-processors = <&zip_xy_scaler 2 1>; // 2× speed
+    custom_speed {
+        layers = <CUSTOM>;
+        input-processors = <&zip_xy_scaler 5 2>; // 2.5× speed
     };
 };
 
